@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  SpendTracker
+//  SpendTracker.watch Watch App
 //
 //  Created by Bryan de Bourbon on 11/18/23.
 //

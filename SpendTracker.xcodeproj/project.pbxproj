@@ -8,12 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		2E09DCB92B098D6D0034675D /* SpendTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E09DCB82B098D6D0034675D /* SpendTrackerApp.swift */; };
-		2E09DCBB2B098D6D0034675D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E09DCBA2B098D6D0034675D /* ContentView.swift */; };
 		2E09DCBD2B098D6F0034675D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E09DCBC2B098D6F0034675D /* Assets.xcassets */; };
 		2E09DCC12B098D6F0034675D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E09DCC02B098D6F0034675D /* Preview Assets.xcassets */; };
 		2E09DCCB2B098D6F0034675D /* SpendTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E09DCCA2B098D6F0034675D /* SpendTrackerTests.swift */; };
 		2E09DCD52B098D6F0034675D /* SpendTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E09DCD42B098D6F0034675D /* SpendTrackerUITests.swift */; };
 		2E09DCD72B098D6F0034675D /* SpendTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E09DCD62B098D6F0034675D /* SpendTrackerUITestsLaunchTests.swift */; };
+		2E09DCEF2B098D960034675D /* SpendTracker_Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E09DCEE2B098D960034675D /* SpendTracker_Widget.swift */; };
+		2E09DCF12B098D960034675D /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E09DCF02B098D960034675D /* AppIntent.swift */; };
+		2E09DCF32B098D980034675D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E09DCF22B098D980034675D /* Assets.xcassets */; };
+		2E09DCF92B098DDC0034675D /* SpendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E09DCF82B098DDC0034675D /* SpendModel.swift */; };
+		2E09DCFA2B098DE70034675D /* SpendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E09DCF82B098DDC0034675D /* SpendModel.swift */; };
+		2E09DCFC2B098E0B0034675D /* SpendInteracter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E09DCFB2B098E0B0034675D /* SpendInteracter.swift */; };
+		2E09DCFE2B098E250034675D /* SpendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E09DCFD2B098E250034675D /* SpendView.swift */; };
+		2E09DD072B098F5F0034675D /* SpendTracker_watchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E09DD062B098F5F0034675D /* SpendTracker_watchApp.swift */; };
+		2E09DD092B098F5F0034675D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E09DD082B098F5F0034675D /* ContentView.swift */; };
+		2E09DD0B2B098F610034675D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E09DD0A2B098F610034675D /* Assets.xcassets */; };
+		2E09DD0E2B098F610034675D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E09DD0D2B098F610034675D /* Preview Assets.xcassets */; };
+		2E09DD182B098F610034675D /* SpendTracker_watch_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E09DD172B098F610034675D /* SpendTracker_watch_Watch_AppTests.swift */; };
+		2E09DD222B098F620034675D /* SpendTracker_watch_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E09DD212B098F620034675D /* SpendTracker_watch_Watch_AppUITests.swift */; };
+		2E09DD242B098F620034675D /* SpendTracker_watch_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E09DD232B098F620034675D /* SpendTracker_watch_Watch_AppUITestsLaunchTests.swift */; };
+		2E09DD272B098F620034675D /* SpendTracker.watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2E09DD042B098F5E0034675D /* SpendTracker.watch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2E09DD362B09921E0034675D /* SpendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E09DCFD2B098E250034675D /* SpendView.swift */; };
+		2E09DD372B0992200034675D /* SpendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E09DCFD2B098E250034675D /* SpendView.swift */; };
+		2E09DD382B09922A0034675D /* SpendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E09DCF82B098DDC0034675D /* SpendModel.swift */; };
+		2E09DD3C2B0992340034675D /* SpendInteracter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E09DCFB2B098E0B0034675D /* SpendInteracter.swift */; };
+		2E09DD412B09A3290034675D /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E09DD3D2B09A2DA0034675D /* WatchKit.framework */; };
+		2E09DD422B09A3290034675D /* WatchKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2E09DD3D2B09A2DA0034675D /* WatchKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2E09DD442B09A32A0034675D /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E09DD3F2B09A2FC0034675D /* SwiftUI.framework */; };
+		2E09DD452B09A32A0034675D /* SwiftUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2E09DD3F2B09A2FC0034675D /* SwiftUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2E09DD4D2B09A54B0034675D /* SpendTracker.WidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2E09DCE72B098D960034675D /* SpendTracker.WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,12 +54,83 @@
 			remoteGlobalIDString = 2E09DCB42B098D6D0034675D;
 			remoteInfo = SpendTracker;
 		};
+		2E09DD142B098F610034675D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E09DCAD2B098D6D0034675D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E09DD032B098F5E0034675D;
+			remoteInfo = "SpendTracker.watch Watch App";
+		};
+		2E09DD1E2B098F610034675D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E09DCAD2B098D6D0034675D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E09DD032B098F5E0034675D;
+			remoteInfo = "SpendTracker.watch Watch App";
+		};
+		2E09DD252B098F620034675D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E09DCAD2B098D6D0034675D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E09DD032B098F5E0034675D;
+			remoteInfo = "SpendTracker.watch Watch App";
+		};
+		2E09DD4B2B09A40F0034675D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E09DCAD2B098D6D0034675D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E09DCB42B098D6D0034675D;
+			remoteInfo = SpendTracker;
+		};
+		2E09DD4E2B09A54B0034675D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E09DCAD2B098D6D0034675D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E09DCE62B098D960034675D;
+			remoteInfo = SpendTracker.WidgetExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2E09DD2B2B098F620034675D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				2E09DD272B098F620034675D /* SpendTracker.watch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E09DD432B09A3290034675D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2E09DD452B09A32A0034675D /* SwiftUI.framework in Embed Frameworks */,
+				2E09DD422B09A3290034675D /* WatchKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E09DD502B09A54B0034675D /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2E09DD4D2B09A54B0034675D /* SpendTracker.WidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2E09DCB52B098D6D0034675D /* SpendTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpendTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E09DCB82B098D6D0034675D /* SpendTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendTrackerApp.swift; sourceTree = "<group>"; };
-		2E09DCBA2B098D6D0034675D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2E09DCBC2B098D6F0034675D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E09DCBE2B098D6F0034675D /* SpendTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpendTracker.entitlements; sourceTree = "<group>"; };
 		2E09DCC02B098D6F0034675D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +139,30 @@
 		2E09DCD02B098D6F0034675D /* SpendTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpendTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E09DCD42B098D6F0034675D /* SpendTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendTrackerUITests.swift; sourceTree = "<group>"; };
 		2E09DCD62B098D6F0034675D /* SpendTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2E09DCE72B098D960034675D /* SpendTracker.WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SpendTracker.WidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E09DCE92B098D960034675D /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		2E09DCEB2B098D960034675D /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		2E09DCEE2B098D960034675D /* SpendTracker_Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendTracker_Widget.swift; sourceTree = "<group>"; };
+		2E09DCF02B098D960034675D /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		2E09DCF22B098D980034675D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E09DCF42B098D980034675D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E09DCF82B098DDC0034675D /* SpendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendModel.swift; sourceTree = "<group>"; };
+		2E09DCFB2B098E0B0034675D /* SpendInteracter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendInteracter.swift; sourceTree = "<group>"; };
+		2E09DCFD2B098E250034675D /* SpendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendView.swift; sourceTree = "<group>"; };
+		2E09DCFF2B098E970034675D /* SpendTracker.WidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpendTracker.WidgetExtension.entitlements; sourceTree = "<group>"; };
+		2E09DD042B098F5E0034675D /* SpendTracker.watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpendTracker.watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E09DD062B098F5F0034675D /* SpendTracker_watchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendTracker_watchApp.swift; sourceTree = "<group>"; };
+		2E09DD082B098F5F0034675D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2E09DD0A2B098F610034675D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E09DD0D2B098F610034675D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2E09DD132B098F610034675D /* SpendTracker.watch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SpendTracker.watch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E09DD172B098F610034675D /* SpendTracker_watch_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendTracker_watch_Watch_AppTests.swift; sourceTree = "<group>"; };
+		2E09DD1D2B098F610034675D /* SpendTracker.watch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SpendTracker.watch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E09DD212B098F620034675D /* SpendTracker_watch_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendTracker_watch_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		2E09DD232B098F620034675D /* SpendTracker_watch_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendTracker_watch_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2E09DD3D2B09A2DA0034675D /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS10.0.sdk/System/Library/Frameworks/WatchKit.framework; sourceTree = DEVELOPER_DIR; };
+		2E09DD3F2B09A2FC0034675D /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS10.0.sdk/System/Library/Frameworks/SwiftUI.framework; sourceTree = DEVELOPER_DIR; };
+		2E09DD5A2B09A9540034675D /* SpendTracker.watch Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SpendTracker.watch Watch App.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,18 +187,56 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2E09DCE42B098D960034675D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E09DD012B098F5E0034675D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E09DD102B098F610034675D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E09DD1A2B098F610034675D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E09DD442B09A32A0034675D /* SwiftUI.framework in Frameworks */,
+				2E09DD412B09A3290034675D /* WatchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		2E09DCAC2B098D6D0034675D = {
 			isa = PBXGroup;
 			children = (
+				2E09DCFF2B098E970034675D /* SpendTracker.WidgetExtension.entitlements */,
 				2E09DCB72B098D6D0034675D /* SpendTracker */,
 				2E09DCC92B098D6F0034675D /* SpendTrackerTests */,
 				2E09DCD32B098D6F0034675D /* SpendTrackerUITests */,
+				2E09DCED2B098D960034675D /* SpendTracker.Widget */,
+				2E09DD052B098F5F0034675D /* SpendTracker.watch Watch App */,
+				2E09DD162B098F610034675D /* SpendTracker.watch Watch AppTests */,
+				2E09DD202B098F620034675D /* SpendTracker.watch Watch AppUITests */,
+				2E09DCE82B098D960034675D /* Frameworks */,
 				2E09DCB62B098D6D0034675D /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		2E09DCB62B098D6D0034675D /* Products */ = {
 			isa = PBXGroup;
@@ -88,6 +244,10 @@
 				2E09DCB52B098D6D0034675D /* SpendTracker.app */,
 				2E09DCC62B098D6F0034675D /* SpendTrackerTests.xctest */,
 				2E09DCD02B098D6F0034675D /* SpendTrackerUITests.xctest */,
+				2E09DCE72B098D960034675D /* SpendTracker.WidgetExtension.appex */,
+				2E09DD042B098F5E0034675D /* SpendTracker.watch Watch App.app */,
+				2E09DD132B098F610034675D /* SpendTracker.watch Watch AppTests.xctest */,
+				2E09DD1D2B098F610034675D /* SpendTracker.watch Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,7 +256,9 @@
 			isa = PBXGroup;
 			children = (
 				2E09DCB82B098D6D0034675D /* SpendTrackerApp.swift */,
-				2E09DCBA2B098D6D0034675D /* ContentView.swift */,
+				2E09DCFD2B098E250034675D /* SpendView.swift */,
+				2E09DCF82B098DDC0034675D /* SpendModel.swift */,
+				2E09DCFB2B098E0B0034675D /* SpendInteracter.swift */,
 				2E09DCBC2B098D6F0034675D /* Assets.xcassets */,
 				2E09DCBE2B098D6F0034675D /* SpendTracker.entitlements */,
 				2E09DCBF2B098D6F0034675D /* Preview Content */,
@@ -129,6 +291,65 @@
 			path = SpendTrackerUITests;
 			sourceTree = "<group>";
 		};
+		2E09DCE82B098D960034675D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E09DD3F2B09A2FC0034675D /* SwiftUI.framework */,
+				2E09DD3D2B09A2DA0034675D /* WatchKit.framework */,
+				2E09DCE92B098D960034675D /* WidgetKit.framework */,
+				2E09DCEB2B098D960034675D /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E09DCED2B098D960034675D /* SpendTracker.Widget */ = {
+			isa = PBXGroup;
+			children = (
+				2E09DCEE2B098D960034675D /* SpendTracker_Widget.swift */,
+				2E09DCF02B098D960034675D /* AppIntent.swift */,
+				2E09DCF22B098D980034675D /* Assets.xcassets */,
+				2E09DCF42B098D980034675D /* Info.plist */,
+			);
+			path = SpendTracker.Widget;
+			sourceTree = "<group>";
+		};
+		2E09DD052B098F5F0034675D /* SpendTracker.watch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				2E09DD5A2B09A9540034675D /* SpendTracker.watch Watch App.entitlements */,
+				2E09DD062B098F5F0034675D /* SpendTracker_watchApp.swift */,
+				2E09DD082B098F5F0034675D /* ContentView.swift */,
+				2E09DD0A2B098F610034675D /* Assets.xcassets */,
+				2E09DD0C2B098F610034675D /* Preview Content */,
+			);
+			path = "SpendTracker.watch Watch App";
+			sourceTree = "<group>";
+		};
+		2E09DD0C2B098F610034675D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2E09DD0D2B098F610034675D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2E09DD162B098F610034675D /* SpendTracker.watch Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E09DD172B098F610034675D /* SpendTracker_watch_Watch_AppTests.swift */,
+			);
+			path = "SpendTracker.watch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		2E09DD202B098F620034675D /* SpendTracker.watch Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2E09DD212B098F620034675D /* SpendTracker_watch_Watch_AppUITests.swift */,
+				2E09DD232B098F620034675D /* SpendTracker_watch_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "SpendTracker.watch Watch AppUITests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,10 +360,12 @@
 				2E09DCB12B098D6D0034675D /* Sources */,
 				2E09DCB22B098D6D0034675D /* Frameworks */,
 				2E09DCB32B098D6D0034675D /* Resources */,
+				2E09DD2B2B098F620034675D /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2E09DD262B098F620034675D /* PBXTargetDependency */,
 			);
 			name = SpendTracker;
 			productName = SpendTracker;
@@ -185,6 +408,80 @@
 			productReference = 2E09DCD02B098D6F0034675D /* SpendTrackerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		2E09DCE62B098D960034675D /* SpendTracker.WidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E09DCF52B098D980034675D /* Build configuration list for PBXNativeTarget "SpendTracker.WidgetExtension" */;
+			buildPhases = (
+				2E09DCE32B098D960034675D /* Sources */,
+				2E09DCE42B098D960034675D /* Frameworks */,
+				2E09DCE52B098D960034675D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpendTracker.WidgetExtension;
+			productName = SpendTracker.WidgetExtension;
+			productReference = 2E09DCE72B098D960034675D /* SpendTracker.WidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		2E09DD032B098F5E0034675D /* SpendTracker.watch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E09DD282B098F620034675D /* Build configuration list for PBXNativeTarget "SpendTracker.watch Watch App" */;
+			buildPhases = (
+				2E09DD002B098F5E0034675D /* Sources */,
+				2E09DD012B098F5E0034675D /* Frameworks */,
+				2E09DD022B098F5E0034675D /* Resources */,
+				2E09DD502B09A54B0034675D /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E09DD4F2B09A54B0034675D /* PBXTargetDependency */,
+			);
+			name = "SpendTracker.watch Watch App";
+			productName = "SpendTracker.watch Watch App";
+			productReference = 2E09DD042B098F5E0034675D /* SpendTracker.watch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E09DD122B098F610034675D /* SpendTracker.watch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E09DD2C2B098F620034675D /* Build configuration list for PBXNativeTarget "SpendTracker.watch Watch AppTests" */;
+			buildPhases = (
+				2E09DD0F2B098F610034675D /* Sources */,
+				2E09DD102B098F610034675D /* Frameworks */,
+				2E09DD112B098F610034675D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E09DD152B098F610034675D /* PBXTargetDependency */,
+			);
+			name = "SpendTracker.watch Watch AppTests";
+			productName = "SpendTracker.watch Watch AppTests";
+			productReference = 2E09DD132B098F610034675D /* SpendTracker.watch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2E09DD1C2B098F610034675D /* SpendTracker.watch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E09DD2F2B098F620034675D /* Build configuration list for PBXNativeTarget "SpendTracker.watch Watch AppUITests" */;
+			buildPhases = (
+				2E09DD192B098F610034675D /* Sources */,
+				2E09DD1A2B098F610034675D /* Frameworks */,
+				2E09DD1B2B098F610034675D /* Resources */,
+				2E09DD432B09A3290034675D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E09DD1F2B098F610034675D /* PBXTargetDependency */,
+				2E09DD4C2B09A40F0034675D /* PBXTargetDependency */,
+			);
+			name = "SpendTracker.watch Watch AppUITests";
+			productName = "SpendTracker.watch Watch AppUITests";
+			productReference = 2E09DD1D2B098F610034675D /* SpendTracker.watch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -206,6 +503,20 @@
 						CreatedOnToolsVersion = 15.0.1;
 						TestTargetID = 2E09DCB42B098D6D0034675D;
 					};
+					2E09DCE62B098D960034675D = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					2E09DD032B098F5E0034675D = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					2E09DD122B098F610034675D = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 2E09DD032B098F5E0034675D;
+					};
+					2E09DD1C2B098F610034675D = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 2E09DCB42B098D6D0034675D;
+					};
 				};
 			};
 			buildConfigurationList = 2E09DCB02B098D6D0034675D /* Build configuration list for PBXProject "SpendTracker" */;
@@ -224,6 +535,10 @@
 				2E09DCB42B098D6D0034675D /* SpendTracker */,
 				2E09DCC52B098D6F0034675D /* SpendTrackerTests */,
 				2E09DCCF2B098D6F0034675D /* SpendTrackerUITests */,
+				2E09DD032B098F5E0034675D /* SpendTracker.watch Watch App */,
+				2E09DD122B098F610034675D /* SpendTracker.watch Watch AppTests */,
+				2E09DD1C2B098F610034675D /* SpendTracker.watch Watch AppUITests */,
+				2E09DCE62B098D960034675D /* SpendTracker.WidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -252,6 +567,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2E09DCE52B098D960034675D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E09DCF32B098D980034675D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E09DD022B098F5E0034675D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E09DD0E2B098F610034675D /* Preview Assets.xcassets in Resources */,
+				2E09DD0B2B098F610034675D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E09DD112B098F610034675D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E09DD1B2B098F610034675D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -259,8 +605,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E09DCBB2B098D6D0034675D /* ContentView.swift in Sources */,
+				2E09DCFE2B098E250034675D /* SpendView.swift in Sources */,
+				2E09DCF92B098DDC0034675D /* SpendModel.swift in Sources */,
 				2E09DCB92B098D6D0034675D /* SpendTrackerApp.swift in Sources */,
+				2E09DCFC2B098E0B0034675D /* SpendInteracter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +629,46 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2E09DCE32B098D960034675D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E09DCFA2B098DE70034675D /* SpendModel.swift in Sources */,
+				2E09DCEF2B098D960034675D /* SpendTracker_Widget.swift in Sources */,
+				2E09DCF12B098D960034675D /* AppIntent.swift in Sources */,
+				2E09DD362B09921E0034675D /* SpendView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E09DD002B098F5E0034675D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E09DD372B0992200034675D /* SpendView.swift in Sources */,
+				2E09DD092B098F5F0034675D /* ContentView.swift in Sources */,
+				2E09DD382B09922A0034675D /* SpendModel.swift in Sources */,
+				2E09DD072B098F5F0034675D /* SpendTracker_watchApp.swift in Sources */,
+				2E09DD3C2B0992340034675D /* SpendInteracter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E09DD0F2B098F610034675D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E09DD182B098F610034675D /* SpendTracker_watch_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E09DD192B098F610034675D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E09DD242B098F620034675D /* SpendTracker_watch_Watch_AppUITestsLaunchTests.swift in Sources */,
+				2E09DD222B098F620034675D /* SpendTracker_watch_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -293,6 +681,31 @@
 			isa = PBXTargetDependency;
 			target = 2E09DCB42B098D6D0034675D /* SpendTracker */;
 			targetProxy = 2E09DCD12B098D6F0034675D /* PBXContainerItemProxy */;
+		};
+		2E09DD152B098F610034675D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E09DD032B098F5E0034675D /* SpendTracker.watch Watch App */;
+			targetProxy = 2E09DD142B098F610034675D /* PBXContainerItemProxy */;
+		};
+		2E09DD1F2B098F610034675D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E09DD032B098F5E0034675D /* SpendTracker.watch Watch App */;
+			targetProxy = 2E09DD1E2B098F610034675D /* PBXContainerItemProxy */;
+		};
+		2E09DD262B098F620034675D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E09DD032B098F5E0034675D /* SpendTracker.watch Watch App */;
+			targetProxy = 2E09DD252B098F620034675D /* PBXContainerItemProxy */;
+		};
+		2E09DD4C2B09A40F0034675D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E09DCB42B098D6D0034675D /* SpendTracker */;
+			targetProxy = 2E09DD4B2B09A40F0034675D /* PBXContainerItemProxy */;
+		};
+		2E09DD4F2B09A54B0034675D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E09DCE62B098D960034675D /* SpendTracker.WidgetExtension */;
+			targetProxy = 2E09DD4E2B09A54B0034675D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -414,6 +827,7 @@
 		2E09DCDB2B098D6F0034675D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = SpendTracker/SpendTracker.entitlements;
@@ -452,6 +866,7 @@
 		2E09DCDC2B098D6F0034675D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = SpendTracker/SpendTracker.entitlements;
@@ -577,6 +992,220 @@
 			};
 			name = Release;
 		};
+		2E09DCF62B098D980034675D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = SpendTracker.WidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VZPMV36P9L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpendTracker.Widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "SpendTracker Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.bryandebourbon.SpendTracker;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bryandebourbon.SpendTracker.Watch.Widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		2E09DCF72B098D980034675D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = SpendTracker.WidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VZPMV36P9L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpendTracker.Widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "SpendTracker Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.bryandebourbon.SpendTracker;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bryandebourbon.SpendTracker.Watch.Widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		2E09DD292B098F620034675D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SpendTracker.watch Watch App/SpendTracker.watch Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpendTracker.watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = VZPMV36P9L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SpendTracker.watch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.bryandebourbon.SpendTracker;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bryandebourbon.SpendTracker.Watch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		2E09DD2A2B098F620034675D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SpendTracker.watch Watch App/SpendTracker.watch Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpendTracker.watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = VZPMV36P9L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SpendTracker.watch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.bryandebourbon.SpendTracker;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bryandebourbon.SpendTracker.Watch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		2E09DD2D2B098F620034675D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VZPMV36P9L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bryandebourbon.SpendTracker-watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpendTracker.watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpendTracker.watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		2E09DD2E2B098F620034675D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VZPMV36P9L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bryandebourbon.SpendTracker-watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpendTracker.watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpendTracker.watch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		2E09DD302B098F620034675D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VZPMV36P9L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bryandebourbon.SpendTracker-watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = SpendTracker;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		2E09DD312B098F620034675D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VZPMV36P9L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bryandebourbon.SpendTracker-watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = SpendTracker;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -612,6 +1241,42 @@
 			buildConfigurations = (
 				2E09DCE12B098D6F0034675D /* Debug */,
 				2E09DCE22B098D6F0034675D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E09DCF52B098D980034675D /* Build configuration list for PBXNativeTarget "SpendTracker.WidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E09DCF62B098D980034675D /* Debug */,
+				2E09DCF72B098D980034675D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E09DD282B098F620034675D /* Build configuration list for PBXNativeTarget "SpendTracker.watch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E09DD292B098F620034675D /* Debug */,
+				2E09DD2A2B098F620034675D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E09DD2C2B098F620034675D /* Build configuration list for PBXNativeTarget "SpendTracker.watch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E09DD2D2B098F620034675D /* Debug */,
+				2E09DD2E2B098F620034675D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E09DD2F2B098F620034675D /* Build configuration list for PBXNativeTarget "SpendTracker.watch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E09DD302B098F620034675D /* Debug */,
+				2E09DD312B098F620034675D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
