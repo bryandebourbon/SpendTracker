@@ -21,7 +21,6 @@
 		2E09DCFC2B098E0B0034675D /* SpendInteracter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E09DCFB2B098E0B0034675D /* SpendInteracter.swift */; };
 		2E09DCFE2B098E250034675D /* SpendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E09DCFD2B098E250034675D /* SpendView.swift */; };
 		2E09DD072B098F5F0034675D /* SpendTracker_watchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E09DD062B098F5F0034675D /* SpendTracker_watchApp.swift */; };
-		2E09DD092B098F5F0034675D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E09DD082B098F5F0034675D /* ContentView.swift */; };
 		2E09DD0B2B098F610034675D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E09DD0A2B098F610034675D /* Assets.xcassets */; };
 		2E09DD0E2B098F610034675D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E09DD0D2B098F610034675D /* Preview Assets.xcassets */; };
 		2E09DD182B098F610034675D /* SpendTracker_watch_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E09DD172B098F610034675D /* SpendTracker_watch_Watch_AppTests.swift */; };
@@ -152,7 +151,6 @@
 		2E09DCFF2B098E970034675D /* SpendTracker.WidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpendTracker.WidgetExtension.entitlements; sourceTree = "<group>"; };
 		2E09DD042B098F5E0034675D /* SpendTracker.watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpendTracker.watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E09DD062B098F5F0034675D /* SpendTracker_watchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendTracker_watchApp.swift; sourceTree = "<group>"; };
-		2E09DD082B098F5F0034675D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2E09DD0A2B098F610034675D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E09DD0D2B098F610034675D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2E09DD132B098F610034675D /* SpendTracker.watch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SpendTracker.watch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -318,7 +316,6 @@
 			children = (
 				2E09DD5A2B09A9540034675D /* SpendTracker.watch Watch App.entitlements */,
 				2E09DD062B098F5F0034675D /* SpendTracker_watchApp.swift */,
-				2E09DD082B098F5F0034675D /* ContentView.swift */,
 				2E09DD0A2B098F610034675D /* Assets.xcassets */,
 				2E09DD0C2B098F610034675D /* Preview Content */,
 			);
@@ -645,7 +642,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E09DD372B0992200034675D /* SpendView.swift in Sources */,
-				2E09DD092B098F5F0034675D /* ContentView.swift in Sources */,
 				2E09DD382B09922A0034675D /* SpendModel.swift in Sources */,
 				2E09DD072B098F5F0034675D /* SpendTracker_watchApp.swift in Sources */,
 				2E09DD3C2B0992340034675D /* SpendInteracter.swift in Sources */,

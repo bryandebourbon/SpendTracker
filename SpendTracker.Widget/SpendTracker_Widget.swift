@@ -22,9 +22,10 @@ struct Provider: TimelineProvider {
   }
 
   private func fetchSpendValue() -> Int {
-    // Utilize SpendModel to fetch the spend value
-    return SpendModel.shared?.spend ?? 0
+    let sharedDefaults = UserDefaults(suiteName: "group.com.bryandebourbon.spend")
+    return sharedDefaults?.integer(forKey: "spend") ?? -1
   }
+
 }
 
 struct SimpleEntry: TimelineEntry {

@@ -42,7 +42,7 @@ struct GaugePointer: View {
 // Preview
 struct SpendView_Previews: PreviewProvider {
   static var previews: some View {
-    SpendView(spend: 0)  // Example spend value
+    SpendView(spend: 80)  // Example spend value
       .frame(width: 100, height: 100)
   }
 }

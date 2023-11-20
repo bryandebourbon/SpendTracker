@@ -15,3 +15,13 @@ struct SpendTracker_watch_Watch_AppApp: App {
         }
     }
 }
+
+struct ContentView: View {
+    var body: some View {
+      SpendInteracter()
+    }
+}
+
+#Preview {
+    ContentView()
+}
